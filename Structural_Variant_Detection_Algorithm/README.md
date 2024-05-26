@@ -126,6 +126,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 2. **Workflow Diagram**: Create a flowchart using tools like [Lucidchart](https://www.lucidchart.com/), [draw.io](https://app.diagrams.net/), or any diagram software to illustrate the steps of the workflow.
 
+3. **Variant Examples**: Use genome browsers like [IGV](http://software.broadinstitute.org/software/igv/) to visualize structural variants. You can take screenshots of the different types of variants (deletions, inversions, duplications, translocations) as they appear in the browser.
+
+
+To make the directory structure look better and more readable in your README.md file, you can use markdown syntax for creating a tree-like structure. Here is an improved version of how you can present it:
+
+```markdown
+## Project Structure
+
+The project directory is organized as follows:
+
+```
 structural-variant-detection/
 ├── images/
 │   ├── bam_file_structure.png
@@ -141,7 +152,100 @@ structural-variant-detection/
 ├── detect_structural_variants.py
 ├── README.md
 └── LICENSE
+```
+```
+
+This will render in markdown to look like a well-organized directory tree.
+
+### Example of Project Structure Section in README.md
+
+```markdown
+## Project Structure
+
+The project directory is organized as follows:
+
+```
+structural-variant-detection/
+├── images/
+│   ├── bam_file_structure.png
+│   ├── workflow_diagram.png
+│   ├── deletion_example.png
+│   ├── inversion_example.png
+│   ├── duplication_example.png
+│   └── translocation_example.png
+├── data/
+│   ├── input.bam
+│   ├── input.bam.bai
+│   └── output.vcf
+├── detect_structural_variants.py
+├── README.md
+└── LICENSE
+```
+
+### Explanation of Contents
+
+- **images/**: Contains visual aids for understanding the project.
+  - `bam_file_structure.png`: Diagram of BAM file structure.
+  - `workflow_diagram.png`: Flowchart of the project's workflow.
+  - `deletion_example.png`: Example of a detected deletion.
+  - `inversion_example.png`: Example of a detected inversion.
+  - `duplication_example.png`: Example of a detected duplication.
+  - `translocation_example.png`: Example of a detected translocation.
+- **data/**: Contains input and output data files.
+  - `input.bam`: Example BAM file used for input.
+  - `input.bam.bai`: Index file for the BAM file.
+  - `output.vcf`: Output VCF file containing detected structural variants.
+- `detect_structural_variants.py`: The main Python script for detecting structural variants.
+- `README.md`: The README file containing documentation for the project.
+- `LICENSE`: The MIT license file for the project.
+```
 
 
-3. **Variant Examples**: Use genome browsers like [IGV](http://software.broadinstitute.org/software/igv/) to visualize structural variants. You can take screenshots of the different types of variants (deletions, inversions, duplications, translocations) as they appear in the browser.
+
+```markdown
+## Project Structure
+
+The project directory is organized as follows:
+
+```
+structural-variant-detection/
+├── images/
+│   ├── bam_file_structure.png
+│   ├── workflow_diagram.png
+│   ├── deletion_example.png
+│   ├── inversion_example.png
+│   ├── duplication_example.png
+│   └── translocation_example.png
+├── data/
+│   ├── input.bam
+│   ├── input.bam.bai
+│   └── output.vcf
+├── detect_structural_variants.py
+├── README.md
+└── LICENSE
+```
+
+### Explanation of Contents
+
+- **images/**: Contains visual aids for understanding the project.
+  - `bam_file_structure.png`: Diagram of BAM file structure.
+    ![BAM File Structure](images/bam_file_structure.png)
+  - `workflow_diagram.png`: Flowchart of the project's workflow.
+    ![Workflow Diagram](images/workflow_diagram.png)
+  - `deletion_example.png`: Example of a detected deletion.
+    ![Deletion Example](images/deletion_example.png)
+  - `inversion_example.png`: Example of a detected inversion.
+    ![Inversion Example](images/inversion_example.png)
+  - `duplication_example.png`: Example of a detected duplication.
+    ![Duplication Example](images/duplication_example.png)
+  - `translocation_example.png`: Example of a detected translocation.
+    ![Translocation Example](images/translocation_example.png)
+- **data/**: Contains input and output data files.
+  - `input.bam`: Example BAM file used for input.
+  - `input.bam.bai`: Index file for the BAM file.
+  - `output.vcf`: Output VCF file containing detected structural variants.
+- `detect_structural_variants.py`: The main Python script for detecting structural variants.
+- `README.md`: The README file containing documentation for the project.
+- `LICENSE`: The MIT license file for the project.
+```
 
