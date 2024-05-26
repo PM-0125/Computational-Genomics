@@ -155,17 +155,17 @@ structural-variant-detection/
 
 - **images/**: Contains visual aids for understanding the project.
   - `bam_file_structure.png`: Diagram of BAM file structure.
-    ![BAM File Structure](images/bam_file_structure.png)
+    ![BAM File Structure](Images/bam_file_structure.png)
   - `workflow_diagram.png`: Flowchart of the project's workflow.
-    ![Workflow Diagram](images/workflow_diagram.png)
+    ![Workflow Diagram](Images/workflow_diagram.png)
   - `deletion_example.png`: Example of a detected deletion.
-    ![Deletion Example](images/deletion_example.png)
+    ![Deletion Example](Images/deletion_example.png)
   - `inversion_example.png`: Example of a detected inversion.
-    ![Inversion Example](images/inversion_example.png)
+    ![Inversion Example](Images/inversion_example.png)
   - `duplication_example.png`: Example of a detected duplication.
-    ![Duplication Example](images/duplication_example.png)
+    ![Duplication Example](Images/duplication_example.png)
   - `translocation_example.png`: Example of a detected translocation.
-    ![Translocation Example](images/translocation_example.png)
+    ![Translocation Example](Images/translocation_example.png)
 - **data/**: Contains input and output data files.
   - `input.bam`: Example BAM file used for input.
   - `input.bam.bai`: Index file for the BAM file.
