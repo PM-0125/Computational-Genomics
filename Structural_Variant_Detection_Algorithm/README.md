@@ -29,7 +29,7 @@ Structural variants are large-scale changes in the genome, such as deletions, du
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/structural-variant-detection.git
+   git clone https://github.com/PM-0125/structural-variant-detection.git
    cd structural-variant-detection
    ```
 
@@ -73,11 +73,11 @@ The project follows these main steps:
 
 ### Input BAM File
 
-![BAM File Structure](images/bam_file_structure.png)
+![BAM File Structure](Images/bam_file_structure.png)
 
 ### Workflow Diagram
 
-![Workflow Diagram](images/workflow_diagram.png)
+![Workflow Diagram](Images/workflow_diagram.png)
 
 ### Sample Output
 
@@ -96,19 +96,19 @@ Here is an example of what the VCF output might look like:
 
 #### Deletions
 
-![Deletion Example](images/deletion_example.png)
+![Deletion Example](Images/deletion_example.png)
 
 #### Inversions
 
-![Inversion Example](images/inversion_example.png)
+![Inversion Example](Images/inversion_example.png)
 
 #### Duplications
 
-![Duplication Example](images/duplication_example.png)
+![Duplication Example](Images/duplication_example.png)
 
 #### Translocations
 
-![Translocation Example](images/translocation_example.png)
+![Translocation Example](Images/translocation_example.png)
 
 ## Contributing
 
