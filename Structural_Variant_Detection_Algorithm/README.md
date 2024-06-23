@@ -3,6 +3,9 @@
 
 This project involves the detection of structural variants in SAM/BAM files using Python. Structural variants include deletions, inversions, duplications, and translocations. The detected variants are outputted in VCF format, a standard format for storing gene sequence variations.
 
+# Structural Variant Detection of 1 chromosome 
+# Strucural Varient Detection of All chromosomes 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -57,7 +60,8 @@ Structural variants are large-scale changes in the genome, such as deletions, du
    python detect_structural_variants.py
    ```
 
-3. The output will be a VCF file (`output.vcf`) containing the detected structural variants.
+3. The output will be a VCF file (`output.vcf`) containing the detected structural variants of 1 chromosome.
+4. The output will be a VCF file ('structural_varients.vcf') containing the detected structural variants of all chromosome.
 
 ## Project Workflow
 
